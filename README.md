@@ -23,7 +23,6 @@ When run, this command will:
 3. `npm run prepublish` in all bootstrapped packages.
 4. `npm run prepare` in all bootstrapped packages.
 
-`lerna bootstrap` respects the `--ignore`, `--scope` and `--include-filtered-dependencies` flags (see [Flags](#flags)).
 
 ### publish
 
