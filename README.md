@@ -7,13 +7,13 @@ The two primary commands in Lerna are `lerna bootstrap` and `lerna publish`.
 `bootstrap` will link dependencies in the repo together.
 `publish` will help publish any updated packages.
 
-## Getting Started
+### Getting Started
 Let's start by installing Lerna globally with [npm](https://www.npmjs.com/).
 ```sh
 $ npm install --global lerna
 ```
 
-### bootstrap
+### Bootstrap
 ```sh
 $ lerna bootstrap
 ```
@@ -29,7 +29,7 @@ When run, this command will:
 4. `npm run prepare` in all bootstrapped packages.
 
 
-### publish
+### Publish
 ```sh
 $ lerna publish
 ```
