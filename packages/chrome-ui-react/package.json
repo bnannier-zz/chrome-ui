@@ -1,9 +1,9 @@
 {
-  "name": "ionize-ui-react",
+  "name": "chrome-ui",
   "version": "0.1.0",
   "description": "Micro application framework for React",
   "main": "index.js",
-  "private": true,
+  "private": false,
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
@@ -95,10 +95,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:bnannier/ionize-ui.git"
+    "url": "ssh://git@github.com:bnannier/chrome-ui.git"
   },
   "keywords": [
-    "ionize-ui-react"
+    "chrome-ui-react"
   ],
-  "license": "ISC"
+  "license": "MIT"
 }

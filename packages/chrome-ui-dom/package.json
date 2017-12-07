@@ -1,0 +1,11 @@
+{
+  "name": "chrome-ui-dom",
+  "version": "0.1.0",
+  "description": "All platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bobby Nannier",
+  "license": "MIT"
+}
