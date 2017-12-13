@@ -1,5 +1,9 @@
 {
-	"devDependencies": {
-		"lerna": "^2.5.1"
-	}
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "lerna": "^2.5.1"
+  },
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run dev --prefix packages/chrome-ui-dom\" \"npm start --prefix packages/chrome-ui-react\""
+  }
 }

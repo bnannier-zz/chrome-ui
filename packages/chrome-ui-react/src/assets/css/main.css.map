@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../../../../chrome-ui-dom/src/main.scss"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAHL,OAAO;EAIlB,KAAK,EAAE,IAAI,GACZ"
+}

@@ -3,9 +3,20 @@
   "version": "0.1.0",
   "description": "All platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Bobby Nannier",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^7.2.2",
+    "chokidar-cli": "^1.2.0",
+    "npm-run-all": "^4.1.2",
+    "node-sass-chokidar": "0.0.3",
+    "postcss-cli": "^4.1.1"
+  },
+  "scripts": {
+    "build-task:scss-compile": "node-sass-chokidar --source-map true src/ -o ../chrome-ui-react/src/assets/css",
+    "build-task:autoprefixer": "postcss ../chrome-ui-react/src/assets/css/*.css --use autoprefixer -d ../chrome-ui-react/src/assets/css",
+    "sass:build": "npm-run-all -p build-task:*",
+    "sass:watch": "chokidar 'src/**/*.scss' -c 'npm run sass:build'",
+    "dev": "npm-run-all -p sass:*"
+  }
 }
