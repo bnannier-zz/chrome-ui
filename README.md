@@ -3,7 +3,7 @@
 ### Getting Started
 The following command will get you up and running fast.
 ```sh
-$ npm install yarn -g && lerna bootstrap && npm start
+$ npm install yarn -g && npm install lerna -g && lerna bootstrap && npm start
 ```
 
 ### What can Lerna do?
