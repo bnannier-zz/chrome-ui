@@ -1,5 +1,11 @@
 # chrome-ui
 
+### Getting Started
+The following command will get you up and running fast.
+```sh
+$ npm install yarn -g && lerna bootstrap && npm start
+```
+
 ### What can Lerna do?
 
 The two primary commands in Lerna are `lerna bootstrap` and `lerna publish`.
@@ -7,7 +13,7 @@ The two primary commands in Lerna are `lerna bootstrap` and `lerna publish`.
 `bootstrap` will link dependencies in the repo together.
 `publish` will help publish any updated packages.
 
-### Getting Started
+### Getting Started with Lerna
 Let's start by installing Lerna globally with [npm](https://www.npmjs.com/).
 ```sh
 $ npm install --global lerna
