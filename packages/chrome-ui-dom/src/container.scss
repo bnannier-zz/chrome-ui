@@ -1,0 +1,19 @@
+.main-container {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  transition: margin-left .5s;
+}
+
+.main-container.close {
+  margin-right: 0;
+}
+
+.main-container.open {
+  margin-right: 0;
+}
+
+.inner-container {
+  padding: 20px;
+}

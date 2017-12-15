@@ -1,3 +1,111 @@
-.button{
-  width: 90%;
+/* Default Button Style */
+button {
+  position: relative;
+  width: 300px;
+  height: 54px;
+  margin: 10px;
+  background: #fff;
+  border-radius: 8px;
+  color: #6419e9;
+  appearance: none;
+  box-shadow: none;
+  border: 1px solid #6419e9;
+  font-weight: lighter;
+}
+
+button:focus {
+  background: #490D91;
+  color: #fff;
+  border: 0;
+  outline: none;
+}
+
+button:disabled {
+  background: #fafafa;
+  color: #757575;
+  outline: none;
+}
+
+
+/* Primary Button Style */
+.primary-button {
+  background: #6419e9;
+  color: #fff;
+}
+
+.primary-button:focus {
+  background: #490d91;
+  color: #fff;
+}
+
+
+/* Secondary Button Style: Default */
+.secondary-button {
+  width: 150px;
+  height: 46px;
+  border-radius: 23px;
+}
+
+.secondary-button:focus {
+  background: #6419e9;
+}
+
+
+/* Secondary Button Style: Create */
+.secondary-button-cerate {
+  color: #be207a;
+  border: 1px solid #be207a;
+}
+
+.secondary-button-cerate:focus {
+  color: #fff;
+  background: #be207a;
+}
+
+
+/* Secondary Button Style: Success */
+.secondary-button-success {
+  color: #008660;
+  border: 1px solid #008660;
+}
+
+.secondary-button-success:focus {
+  color: #fff;
+  background: #008660;
+}
+
+
+/* Secondary Button Style: Error */
+.secondary-button-error {
+  color: #ed0722;
+  border: 1px solid #ed0722;
+}
+
+.secondary-button-error:focus {
+  color: #fff;
+  background: #ed0722;
+}
+
+
+/* Secondary Button Style: Info. */
+.secondary-button-info {
+  color: #087bb4;
+  border: 1px solid #087bb4;
+}
+
+.secondary-button-info:focus {
+  color: #fff;
+  background: #087bb4;
+}
+
+
+/* Image Button Style */
+.image-button {
+  width: 36px;
+  height: 36px;
+  border: 0;
+}
+
+.image-button:focus {
+  background: transparent;
 }

@@ -1,0 +1,17 @@
+.main-container {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-transition: margin-left .5s;
+  transition: margin-left .5s; }
+
+.main-container.close {
+  margin-right: 0; }
+
+.main-container.open {
+  margin-right: 0; }
+
+.inner-container {
+  padding: 20px; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL2Nocm9tZS11aS1kb20vc3JjL2NvbnRhaW5lci5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsbUJBQWtCO0VBQ2xCLFlBQVc7RUFDWCxZQUFXO0VBQ1gsZUFBYztFQUNkLG9DQUEyQjtFQUEzQiw0QkFBMkIsRUFDNUI7O0FBRUQ7RUFDRSxnQkFBZSxFQUNoQjs7QUFFRDtFQUNFLGdCQUFlLEVBQ2hCOztBQUVEO0VBQ0UsY0FBYSxFQUNkIiwiZmlsZSI6ImNvbnRhaW5lci5jc3MifQ== */
