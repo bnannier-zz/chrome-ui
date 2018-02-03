@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "env",
+    "react"
+  ],
+  "plugins": [
+    "include",
+    "syntax-dynamic-import",
+    "transform-object-rest-spread"
+  ]
+}
