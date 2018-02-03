@@ -1,9 +1,0 @@
-{
-	"version": 3,
-	"file": "image.css",
-	"sources": [
-		"../../../../chrome-ui-dom/src/image.scss"
-	],
-	"names": [],
-	"mappings": ""
-}

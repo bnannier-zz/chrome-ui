@@ -1,9 +1,0 @@
-{
-	"version": 3,
-	"file": "container.css",
-	"sources": [
-		"../../../../chrome-ui-dom/src/container.scss"
-	],
-	"names": [],
-	"mappings": "AAAA,AAAA,eAAe,CAAC;EACd,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,eAAe,GAC5B;;AAED,AAAA,eAAe,AAAA,MAAM,CAAC;EACpB,YAAY,EAAE,CAAC,GAChB;;AAED,AAAA,eAAe,AAAA,KAAK,CAAC;EACnB,YAAY,EAAE,CAAC,GAChB;;AAED,AAAA,gBAAgB,CAAC;EACf,OAAO,EAAE,IAAI,GACd"
-}
