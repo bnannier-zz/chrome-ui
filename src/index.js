@@ -8,4 +8,4 @@ function mainView() {
   return <Gallery />;
 }
 
-Chrome(mainView());
+Chrome(mainView() /* reducers */);
