@@ -1,7 +1,9 @@
 language: node_js
 node_js:
- - "10.13.0"
-
+  - "10.13.0"
+install:
+  - yarn
+  - yarn dist
 deploy:
   provider: npm
   email: "NPM_EMAIL_ADDRESS"
