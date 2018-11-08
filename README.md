@@ -15,3 +15,4 @@ State-based props are mapped from the store rather than stored as component stat
 Does application state update correctly?
 - Updates are triggered by dispatching action creators to reducers.
 - Reducers and actions are written properly and correctly return updated state to the store.
+
