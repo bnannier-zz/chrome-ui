@@ -11,7 +11,7 @@ import chrome from "../reducers";
 function Chrome(view, reducers) {
   const store = configureStore(
     combineReducers({
-      app: reducers,
+      // app: reducers,
       chrome
     })
   );

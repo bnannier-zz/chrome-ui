@@ -25,13 +25,13 @@ class Button extends Component {
 
   defaultCSS() {
     return [
-      "mdc-button",
+      "mdc-" + (this.props.icon != null ? "icon-" : "") + "button",
       {
         "mdc-button--raised": this.props.raised,
         "mdc-button--unelevated": this.props.unelevated,
         "mdc-button--outlined": this.props.outlined,
         "mdc-button--dense": this.props.dense,
-        "mdc-button__icon": this.props.icon
+        "material-icons": this.props.icon
       }
     ];
   }

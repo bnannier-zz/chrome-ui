@@ -13,17 +13,14 @@ class Gallery extends Component {
     return [
       <AppBar fixed key="header">
         <AppBarSection left>
-          <button className="material-icons mdc-top-app-bar__navigation-icon mdc-ripple-upgraded--unbounded mdc-ripple-upgraded">
-            menu
-          </button>
+          <Button icon>menu</Button>
           <span className="mdc-top-app-bar__title">Chrome UI</span>
         </AppBarSection>
-        <AppBarSection right>hey</AppBarSection>
+        <AppBarSection right>
+          <Language />
+        </AppBarSection>
       </AppBar>,
       <Container key="container">
-        <div style={{ background: "pink", padding: "10px" }}>
-          <Language />
-        </div>
         <Card>ddd</Card>
         <Button>click me</Button>
         <h1 className="mdc-typography--headline1">Big header</h1>
