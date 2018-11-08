@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>toggle/en/blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="toggle/en/blue" transform="translate(1.000000, 1.000000)">
+            <g id="Group-Copy-4">
+                <circle id="Oval" stroke="#006AC3" stroke-width="1.5" cx="13.5" cy="13.5" r="13"></circle>
+                <path d="M6.188,18 L6.188,9.42 L11.78,9.42 L11.78,10.932 L8.12,10.932 L8.12,12.936 L11.048,12.936 L11.048,14.352 L8.12,14.352 L8.12,16.488 L11.972,16.488 L11.972,18 L6.188,18 Z M13.328,18 L13.328,9.42 L15.584,9.42 L18.848,15.072 L18.848,9.42 L20.576,9.42 L20.576,18 L18.632,18 L15.056,11.892 L15.056,18 L13.328,18 Z" id="EN" fill="#006AC3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

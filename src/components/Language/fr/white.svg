@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>toggle/fr/white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header-copy" transform="translate(-1375.000000, -35.000000)">
+            <g id="toggle/fr/white" transform="translate(1376.000000, 36.000000)">
+                <g id="Group">
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="1.5" cx="13.5" cy="13.5" r="13"></circle>
+                    <path d="M7.256,18 L7.256,9.42 L12.764,9.42 L12.764,10.944 L9.2,10.944 L9.2,13.212 L12.02,13.212 L12.02,14.676 L9.2,14.676 L9.2,18 L7.256,18 Z M14.06,18 L14.06,9.42 L17.132,9.42 C19.16,9.42 20.444,10.248 20.444,12.024 L20.444,12.072 C20.444,13.368 19.688,14.052 18.68,14.352 L20.948,18 L18.884,18 L16.832,14.688 L15.992,14.688 L15.992,18 L14.06,18 Z M15.992,13.368 L17.084,13.368 C18.056,13.368 18.548,12.96 18.548,12.132 L18.548,12.084 C18.548,11.208 18.02,10.908 17.084,10.908 L15.992,10.908 L15.992,13.368 Z" id="FR" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

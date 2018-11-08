@@ -1,0 +1,28 @@
+@import "../../config/variables.scss";
+
+@media screen and (min-width: 0px) {
+}
+
+// Mobile
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .grid-max-width {
+    width: $phone-width !important;
+    max-width: $phone-max-width !important;
+  }
+}
+
+// Tablet
+@media screen and (min-width: 481px) and (max-width: 840px) {
+  .grid-max-width {
+    width: $tablet-width !important;
+    max-width: $tablet-max-width !important;
+  }
+}
+
+// Desktop
+@media screen and (min-width: 841px) {
+  .grid-max-width {
+    width: $desktop-width !important;
+    max-width: $desktop-max-width !important;
+  }
+}

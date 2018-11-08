@@ -1,0 +1,131 @@
+@import "./fonts.scss";
+
+// COLOURS
+$colour-primary: #fae339;
+$colour-secondary: #006ac3;
+$colour-tertiary: #000000;
+$colour-quaternary: #ffffff;
+$colour-quinary: #be1d74;
+$colour-senary: #ffffff;
+$colour-septenary: #ffffff;
+$colour-octonary: #ffffff;
+$colour-nonary: #ffffff;
+$colour-denary: #ffffff;
+
+//// FONTS
+//$ball-pen: "Ball-Pen";
+//$graphik-black: "Graphik-Black";
+//$graphik-bold: "Graphik-Bold";
+//$graphik-medium: "Graphik-Medium";
+//$graphik: "Graphik";
+//$graphik-semibold: "Graphik-Semibold";
+
+// FONT WEIGHTS
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
+
+// DIMENSIONS
+// Device Width
+$phone-width: 364px;
+$tablet-width: 720px;
+$desktop-width: 1000px;
+// Maximum Device Width
+$phone-max-width: 375px;
+$tablet-max-width: 768px;
+$desktop-max-width: 1024px;
+
+// TYPOGRAPHY VARIABLES
+$h1: (
+  font-family: Graphik,
+  font-size: 6rem,
+  line-height: 6rem
+);
+
+$h1-mobile: (
+  font-size: 42px,
+  line-height: 40px
+);
+
+$h1-strong: (
+  font-family: Graphik-Semibold
+);
+
+$h2: (
+  font-family: Graphik,
+  font-size: 5rem,
+  line-height: 5rem
+);
+
+$h2-mobile: (
+  font-size: 24px
+);
+
+$h2-strong: (
+  font-family: Graphik-Semibold
+);
+
+$h3: (
+  font-family: Graphik,
+  font-size: 4rem,
+  line-height: 4rem
+);
+
+$h3-strong: (
+  font-family: Graphik-Semibold
+);
+
+$h4: (
+  font-family: Graphik,
+  font-size: 3rem,
+  line-height: 3rem
+);
+
+$h4-strong: (
+  font-family: Graphik-Semibold
+);
+
+$h5: (
+  font-family: Graphik,
+  font-size: 2rem,
+  line-height: 2rem
+);
+
+$h5-strong: (
+  font-family: Graphik-Semibold
+);
+
+$h6: (
+  font-family: Graphik,
+  font-size: 1rem,
+  line-height: 1rem
+);
+
+$h6-strong: (
+  font-family: Graphik-Semibold
+);
+
+$p: (
+  font-family: Graphik,
+  font-size: 16px,
+  letter-spacing: 0,
+  line-height: 26px
+);
+
+$a: (
+  font-family: Graphik-Medium,
+  font-size: 16px,
+  letter-spacing: 3.1px
+);
+
+$link-paragraph-mobile: (
+  font-size: 16px !important
+);
+
+$li: (
+  font-family: Graphik,
+  font-size: 16px,
+  letter-spacing: 0,
+  line-height: 1.6
+);

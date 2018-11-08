@@ -1,29 +1,27 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { Provider } from 'react-redux'
-import { BrowserRouter as Router } from 'react-router-dom'
+import React from "react";
+import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
+import { combineReducers } from "redux";
+import { BrowserRouter as Router } from "react-router-dom";
 
-import configureStore from '../../utilities/configureStore'
-import registerServiceWorker from '../../utilities/registerServiceWorker'
+import configureStore from "../../utilities/configureStore";
+import registerServiceWorker from "../../utilities/registerServiceWorker";
+import chrome from "../reducers";
 
-function Chrome(routes, reducers) {
-  const store = configureStore(reducers);
-
-  const routeComponents = (
-      <div>{routes}</div>
+function Chrome(view, reducers) {
+  const store = configureStore(
+    combineReducers({
+      app: reducers,
+      chrome
+    })
   );
 
   ReactDOM.render(
-      <Provider store={store}>
-        <div>
-          <Router>
-            {routeComponents}
-          </Router>
-        </div>
-      </Provider>
-      , document.getElementById('root')
+    <Provider store={store}>
+      <Router>{view}</Router>
+    </Provider>,
+    document.getElementById("root")
   );
-  registerServiceWorker();
 }
 
 export default Chrome;
