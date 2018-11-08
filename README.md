@@ -1,3 +1,5 @@
+https://travis-ci.org/bnannier/chrome-ui.svg?branch=master . 
+
 # Instructions
 ```
 yarn && yarn start
