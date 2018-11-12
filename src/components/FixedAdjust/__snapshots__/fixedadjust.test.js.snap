@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FixedAdjust Tests Default 1`] = `
+<Base>
+  <div
+    className={
+      Array [
+        Object {
+          "mdc-top-app-bar--dense-fixed-adjust": undefined,
+          "mdc-top-app-bar--fixed-adjust": undefined,
+          "mdc-top-app-bar--prominent-fixed-adjust": undefined,
+          "mdc-top-app-bar--short-fixed-adjust": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
