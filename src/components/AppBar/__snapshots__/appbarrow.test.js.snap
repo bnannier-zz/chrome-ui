@@ -1,9 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`AppBarRow Tests Default 1`] = `
-<div>
-  <AppBarRow>
-    Chrome UI
-  </AppBarRow>
-</div>
+<Base>
+  <div
+    className={
+      Array [
+        "mdc-top-app-bar__row",
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
 `;
