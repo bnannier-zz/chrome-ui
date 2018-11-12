@@ -3,15 +3,11 @@ import { configure, shallow } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 configure({ adapter: new Adapter() });
 
-import AppBarRow from "./AppBarRow";
+import { FixedAdjust } from "../";
 
-describe("AppBarRow Tests", () => {
+describe("FixedAdjust Tests", () => {
   it("Default", function() {
-    const wrapper = shallow(
-      <div>
-        <AppBarRow>Chrome UI</AppBarRow>
-      </div>
-    );
+    const wrapper = shallow(<FixedAdjust>test</FixedAdjust>);
     expect(wrapper).toMatchSnapshot();
   });
 });

@@ -3,14 +3,14 @@ import { configure, shallow } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 configure({ adapter: new Adapter() });
 
-import AppBarRow from "./AppBarRow";
+import { Grid, GridCell } from "../";
 
-describe("AppBarRow Tests", () => {
+describe("GridCell Tests", () => {
   it("Default", function() {
     const wrapper = shallow(
-      <div>
-        <AppBarRow>Chrome UI</AppBarRow>
-      </div>
+      <Grid>
+        <GridCell>test</GridCell>
+      </Grid>
     );
     expect(wrapper).toMatchSnapshot();
   });

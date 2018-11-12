@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown Tests Default 1`] = `
+<div
+  className="form--input"
+>
+  <label
+    className="label"
+    htmlFor="testDropdown"
+  >
+     
+    Test Dropdown:
+     
+  </label>
+  <select
+    className="input--select"
+    id="testDropdown"
+    name="test"
+    onChange={undefined}
+    value={undefined}
+  >
+    <option
+      value="opt1"
+    >
+       
+      option 1
+       
+    </option>
+    <option
+      value="opt2"
+    >
+       
+      option 2
+       
+    </option>
+    <option
+      value="opt3"
+    >
+       
+      option 3
+       
+    </option>
+  </select>
+</div>
+`;

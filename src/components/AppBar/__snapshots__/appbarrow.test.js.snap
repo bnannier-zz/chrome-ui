@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AppBarRow Tests Render AppBarRow 1`] = `
+exports[`AppBarRow Tests Default 1`] = `
 <div>
   <AppBarRow>
     Chrome UI

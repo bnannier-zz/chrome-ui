@@ -3,6 +3,11 @@ import PropTypes from "prop-types";
 
 /**
  * @description Dropdown component - renders a dropdown selector with a label
+ * @param {array}  options  - The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document).
+ * @param {string} id       - CSS class that will be overriding this components style.
+ * @param {func}   onChange - Child component to be encapsulated by this component.
+ * @param {string} name     - Left align grid.
+ * @param {string} label    - Right align grid.
  */
 class Dropdown extends Component {
   render() {
@@ -42,25 +47,10 @@ class Dropdown extends Component {
 }
 
 Dropdown.propTypes = {
-  /**
-   * options - array of options to be rendered in the dropdown
-   */
   options: PropTypes.array,
-  /**
-   * id - element id of the dropdown
-   */
   id: PropTypes.string,
-  /**
-   * onChange - function to be attached to the dropdown's onChange event
-   */
   onChange: PropTypes.func,
-  /**
-   * name - element name of the dropdown
-   */
   name: PropTypes.string,
-  /**
-   * label - text to be displayed in the label
-   */
   label: PropTypes.string
 };
 

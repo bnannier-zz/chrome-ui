@@ -1,17 +1,15 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
+
+import { Dropdown } from "../";
 import { changeLanguage, loadLanguage } from "./Actions";
-import enWhite from "./en/white.svg";
-import enBlack from "./en/black.svg";
-import frWhite from "./fr/white.svg";
-import frBlack from "./fr/black.svg";
 
 /**
  * @description Language allows a user to select a specific language.
- * @param {string} id - The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document).
+ * @param {string} id        - The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document).
  * @param {string} className - CSS class that will be overriding this components style.
- * @param {node} children - Child component to be encapsulated by this component.
+ * @param {node}   children  - Child component to be encapsulated by this component.
  */
 class Language extends Component {
   constructor(props) {
@@ -20,17 +18,13 @@ class Language extends Component {
   }
 
   render() {
-    const frIcon = this.props.homePage ? frWhite : frBlack;
-    const enIcon = this.props.homePage ? enWhite : enBlack;
-    const langIcon = this.props.selected === "fr" ? enIcon : frIcon;
-    const requestedLang = this.props.selected === "fr" ? "en" : "fr";
-
     return (
-      <img
-        style={this.props.style}
-        src={langIcon}
-        alt={`selected language is ${this.props.selected}`}
-        onClick={() => this.props.changeLanguage(requestedLang)}
+      <Dropdown
+        id="languagePicker"
+        name="language"
+        onChange={this.props.changeLanguage}
+        options={this.props.options}
+        value={this.props.selected}
       />
     );
   }
@@ -52,7 +46,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
   return {
     dispatch,
-    changeLanguage: value => dispatch(changeLanguage(value)),
+    changeLanguage: event => dispatch(changeLanguage(event.target.value)),
     loadLanguage: () => dispatch(loadLanguage())
   };
 };
