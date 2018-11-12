@@ -1,66 +1,181 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AppBar Tests Dense Position 1`] = `
-<div>
-  <AppBar
-    dense={true}
+exports[`AppBar Tests Default 1`] = `
+<Base>
+  <header
+    className={
+      Array [
+        "mdc-top-app-bar",
+        Object {
+          "mdc-top-app-bar--dense": undefined,
+          "mdc-top-app-bar--fixed": undefined,
+          "mdc-top-app-bar--prominent": undefined,
+          "mdc-top-app-bar--short": undefined,
+          "mdc-top-app-bar--short-collapsed": undefined,
+          "mdc-top-app-bar--short-has-action-item": undefined,
+        },
+      ]
+    }
   >
-    Chrome UI
-  </AppBar>
-  <Container>
-    Bobby
-  </Container>
-</div>
+    <AppBarRow>
+      test
+    </AppBarRow>
+  </header>
+</Base>
 `;
 
-exports[`AppBar Tests Fixed Position 1`] = `
-<div>
-  <AppBar
-    fixed={true}
+exports[`AppBar Tests Dense 1`] = `
+<Base
+  dense={true}
+>
+  <header
+    className={
+      Array [
+        "mdc-top-app-bar",
+        Object {
+          "mdc-top-app-bar--dense": true,
+          "mdc-top-app-bar--fixed": undefined,
+          "mdc-top-app-bar--prominent": undefined,
+          "mdc-top-app-bar--short": undefined,
+          "mdc-top-app-bar--short-collapsed": undefined,
+          "mdc-top-app-bar--short-has-action-item": undefined,
+        },
+      ]
+    }
   >
-    Chrome UI
-  </AppBar>
-  <Container>
-    Bobby
-  </Container>
-</div>
+    <AppBarRow>
+      test
+    </AppBarRow>
+  </header>
+</Base>
 `;
 
-exports[`AppBar Tests Prominent Position 1`] = `
-<div>
-  <AppBar
-    prominent={true}
+exports[`AppBar Tests Fixed 1`] = `
+<Base
+  fixed={true}
+>
+  <header
+    className={
+      Array [
+        "mdc-top-app-bar",
+        Object {
+          "mdc-top-app-bar--dense": undefined,
+          "mdc-top-app-bar--fixed": true,
+          "mdc-top-app-bar--prominent": undefined,
+          "mdc-top-app-bar--short": undefined,
+          "mdc-top-app-bar--short-collapsed": undefined,
+          "mdc-top-app-bar--short-has-action-item": undefined,
+        },
+      ]
+    }
   >
-    Chrome UI
-  </AppBar>
-  <Container>
-    Bobby
-  </Container>
-</div>
+    <AppBarRow>
+      test
+    </AppBarRow>
+  </header>
+</Base>
 `;
 
-exports[`AppBar Tests Short Collapsed Position 1`] = `
-<div>
-  <AppBar
-    shortCollapsed={true}
+exports[`AppBar Tests Has Action Items 1`] = `
+<Base
+  hasActionItems={true}
+>
+  <header
+    className={
+      Array [
+        "mdc-top-app-bar",
+        Object {
+          "mdc-top-app-bar--dense": undefined,
+          "mdc-top-app-bar--fixed": undefined,
+          "mdc-top-app-bar--prominent": undefined,
+          "mdc-top-app-bar--short": undefined,
+          "mdc-top-app-bar--short-collapsed": undefined,
+          "mdc-top-app-bar--short-has-action-item": undefined,
+        },
+      ]
+    }
   >
-    Chrome UI
-  </AppBar>
-  <Container>
-    Bobby
-  </Container>
-</div>
+    <AppBarRow>
+      test
+    </AppBarRow>
+  </header>
+</Base>
 `;
 
-exports[`AppBar Tests Short Position 1`] = `
-<div>
-  <AppBar
-    short={true}
+exports[`AppBar Tests Prominent 1`] = `
+<Base
+  prominent={true}
+>
+  <header
+    className={
+      Array [
+        "mdc-top-app-bar",
+        Object {
+          "mdc-top-app-bar--dense": undefined,
+          "mdc-top-app-bar--fixed": undefined,
+          "mdc-top-app-bar--prominent": true,
+          "mdc-top-app-bar--short": undefined,
+          "mdc-top-app-bar--short-collapsed": undefined,
+          "mdc-top-app-bar--short-has-action-item": undefined,
+        },
+      ]
+    }
   >
-    Chrome UI
-  </AppBar>
-  <Container>
-    Bobby
-  </Container>
-</div>
+    <AppBarRow>
+      test
+    </AppBarRow>
+  </header>
+</Base>
+`;
+
+exports[`AppBar Tests Short 1`] = `
+<Base
+  short={true}
+>
+  <header
+    className={
+      Array [
+        "mdc-top-app-bar",
+        Object {
+          "mdc-top-app-bar--dense": undefined,
+          "mdc-top-app-bar--fixed": undefined,
+          "mdc-top-app-bar--prominent": undefined,
+          "mdc-top-app-bar--short": true,
+          "mdc-top-app-bar--short-collapsed": undefined,
+          "mdc-top-app-bar--short-has-action-item": undefined,
+        },
+      ]
+    }
+  >
+    <AppBarRow>
+      test
+    </AppBarRow>
+  </header>
+</Base>
+`;
+
+exports[`AppBar Tests Short Collapsed 1`] = `
+<Base
+  shortCollapsed={true}
+>
+  <header
+    className={
+      Array [
+        "mdc-top-app-bar",
+        Object {
+          "mdc-top-app-bar--dense": undefined,
+          "mdc-top-app-bar--fixed": undefined,
+          "mdc-top-app-bar--prominent": undefined,
+          "mdc-top-app-bar--short": true,
+          "mdc-top-app-bar--short-collapsed": true,
+          "mdc-top-app-bar--short-has-action-item": undefined,
+        },
+      ]
+    }
+  >
+    <AppBarRow>
+      test
+    </AppBarRow>
+  </header>
+</Base>
 `;

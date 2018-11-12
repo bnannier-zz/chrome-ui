@@ -6,10 +6,10 @@ configure({ adapter: new Adapter() });
 import { AppBar, AppBarSection } from "../";
 
 describe("AppBarSection Tests", () => {
-  it("Check Sections", function() {
+  it("Check Sections Left and Right", function() {
     const wrapper = shallow(
       <div>
-        <AppBar fixed>
+        <AppBar>
           <AppBarSection left>Left Side</AppBarSection>
           <AppBarSection right>Right Side</AppBarSection>
         </AppBar>

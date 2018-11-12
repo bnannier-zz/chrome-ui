@@ -2,7 +2,11 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { Base } from "../";
 import "./appbar.css";
-import { MDCTopAppBar } from "@material/top-app-bar/dist/mdc.topAppBar";
+import {
+  MDCFixedTopAppBarFoundation,
+  MDCTopAppBarFoundation,
+  MDCShortTopAppBarFoundation
+} from "@material/top-app-bar/dist/mdc.topAppBar";
 
 import AppBarRow from "../AppBar/AppBarRow";
 
@@ -50,31 +54,25 @@ class AppBar extends Component {
     ];
   }
 
-  containerCSS() {
-    if (this.props.dense) {
-      document
-        .getElementById("main-container")
-        .classList.add("mdc-top-app-bar--dense-fixed-adjust");
-    } else if (this.props.prominent) {
-      document
-        .getElementById("main-container")
-        .classList.add("mdc-top-app-bar--prominent-fixed-adjust");
-    } else if (this.props.short || this.props.shortCollapsed) {
-      document
-        .getElementById("main-container")
-        .classList.add("mdc-top-app-bar--short-fixed-adjust");
-    } else {
-      document
-        .getElementById("main-container")
-        .classList.add("mdc-top-app-bar--fixed-adjust");
-    }
+  componentDidMount() {
+    this.initializeFoundation();
   }
 
-  componentDidMount() {
-    const topAppBar = new MDCTopAppBar(this.appBarRef.current);
-    topAppBar.initialize();
-    this.containerCSS();
+  componentWillUnmount() {
+    this.foundation_.destroy();
   }
+
+  initializeFoundation = () => {
+    if (this.props.short) {
+      this.foundation_ = new MDCShortTopAppBarFoundation(this.adapter);
+    } else if (this.props.fixed) {
+      this.foundation_ = new MDCFixedTopAppBarFoundation(this.adapter);
+    } else {
+      this.foundation_ = new MDCTopAppBarFoundation(this.adapter);
+    }
+
+    this.foundation_.init();
+  };
 }
 
 AppBar.propTypes = {

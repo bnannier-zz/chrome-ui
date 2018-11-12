@@ -6,7 +6,7 @@ configure({ adapter: new Adapter() });
 import AppBarRow from "./AppBarRow";
 
 describe("AppBarRow Tests", () => {
-  it("Render AppBarRow", function() {
+  it("Default", function() {
     const wrapper = shallow(
       <div>
         <AppBarRow>Chrome UI</AppBarRow>
