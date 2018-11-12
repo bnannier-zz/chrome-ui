@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Tests Default 1`] = `
+<Base>
+  <button
+    className={
+      Array [
+        "mdc-button",
+        Object {
+          "material-icons": undefined,
+          "mdc-button--dense": undefined,
+          "mdc-button--outlined": undefined,
+          "mdc-button--raised": undefined,
+          "mdc-button--unelevated": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </button>
+</Base>
+`;
+
+exports[`Button Tests Dense 1`] = `
+<Base
+  dense={true}
+>
+  <button
+    className={
+      Array [
+        "mdc-button",
+        Object {
+          "material-icons": undefined,
+          "mdc-button--dense": true,
+          "mdc-button--outlined": undefined,
+          "mdc-button--raised": undefined,
+          "mdc-button--unelevated": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </button>
+</Base>
+`;
+
+exports[`Button Tests Icon 1`] = `
+<Base
+  icon={true}
+>
+  <button
+    className={
+      Array [
+        "mdc-icon-button",
+        Object {
+          "material-icons": true,
+          "mdc-button--dense": undefined,
+          "mdc-button--outlined": undefined,
+          "mdc-button--raised": undefined,
+          "mdc-button--unelevated": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </button>
+</Base>
+`;
+
+exports[`Button Tests Outlined 1`] = `
+<Base
+  outlined={true}
+>
+  <button
+    className={
+      Array [
+        "mdc-button",
+        Object {
+          "material-icons": undefined,
+          "mdc-button--dense": undefined,
+          "mdc-button--outlined": true,
+          "mdc-button--raised": undefined,
+          "mdc-button--unelevated": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </button>
+</Base>
+`;
+
+exports[`Button Tests Raised 1`] = `
+<Base
+  raised={true}
+>
+  <button
+    className={
+      Array [
+        "mdc-button",
+        Object {
+          "material-icons": undefined,
+          "mdc-button--dense": undefined,
+          "mdc-button--outlined": undefined,
+          "mdc-button--raised": true,
+          "mdc-button--unelevated": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </button>
+</Base>
+`;
+
+exports[`Button Tests Unelevated 1`] = `
+<Base
+  unelevated={true}
+>
+  <button
+    className={
+      Array [
+        "mdc-button",
+        Object {
+          "material-icons": undefined,
+          "mdc-button--dense": undefined,
+          "mdc-button--outlined": undefined,
+          "mdc-button--raised": undefined,
+          "mdc-button--unelevated": true,
+        },
+      ]
+    }
+  >
+    test
+  </button>
+</Base>
+`;

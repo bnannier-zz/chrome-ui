@@ -1,0 +1,433 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Tests Action 1`] = `
+<Base
+  action={true}
+>
+  <div
+    className={
+      Array [
+        "mdc-card",
+        Object {
+          "mdc-card--outlined": undefined,
+          "mdc-card__action": true,
+          "mdc-card__action--button": undefined,
+          "mdc-card__action--icon": undefined,
+          "mdc-card__action-buttons": undefined,
+          "mdc-card__action-icons": undefined,
+          "mdc-card__actions": undefined,
+          "mdc-card__actions--full-bleed": undefined,
+          "mdc-card__media": undefined,
+          "mdc-card__media--16-9": undefined,
+          "mdc-card__media-content": undefined,
+          "mdc-card__primary-action": undefined,
+          "mdc-mdc-card__media--square": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
+
+exports[`Card Tests Action Button 1`] = `
+<Base
+  actionButton={true}
+>
+  <div
+    className={
+      Array [
+        "mdc-card",
+        Object {
+          "mdc-card--outlined": undefined,
+          "mdc-card__action": undefined,
+          "mdc-card__action--button": true,
+          "mdc-card__action--icon": undefined,
+          "mdc-card__action-buttons": undefined,
+          "mdc-card__action-icons": undefined,
+          "mdc-card__actions": undefined,
+          "mdc-card__actions--full-bleed": undefined,
+          "mdc-card__media": undefined,
+          "mdc-card__media--16-9": undefined,
+          "mdc-card__media-content": undefined,
+          "mdc-card__primary-action": undefined,
+          "mdc-mdc-card__media--square": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
+
+exports[`Card Tests Action Buttons 1`] = `
+<Base
+  actionButtons={true}
+>
+  <div
+    className={
+      Array [
+        "mdc-card",
+        Object {
+          "mdc-card--outlined": undefined,
+          "mdc-card__action": undefined,
+          "mdc-card__action--button": undefined,
+          "mdc-card__action--icon": undefined,
+          "mdc-card__action-buttons": true,
+          "mdc-card__action-icons": undefined,
+          "mdc-card__actions": undefined,
+          "mdc-card__actions--full-bleed": undefined,
+          "mdc-card__media": undefined,
+          "mdc-card__media--16-9": undefined,
+          "mdc-card__media-content": undefined,
+          "mdc-card__primary-action": undefined,
+          "mdc-mdc-card__media--square": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
+
+exports[`Card Tests Action Icon 1`] = `
+<Base
+  actionIcon={true}
+>
+  <div
+    className={
+      Array [
+        "mdc-card",
+        Object {
+          "mdc-card--outlined": undefined,
+          "mdc-card__action": undefined,
+          "mdc-card__action--button": undefined,
+          "mdc-card__action--icon": true,
+          "mdc-card__action-buttons": undefined,
+          "mdc-card__action-icons": undefined,
+          "mdc-card__actions": undefined,
+          "mdc-card__actions--full-bleed": undefined,
+          "mdc-card__media": undefined,
+          "mdc-card__media--16-9": undefined,
+          "mdc-card__media-content": undefined,
+          "mdc-card__primary-action": undefined,
+          "mdc-mdc-card__media--square": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
+
+exports[`Card Tests Action Icons 1`] = `
+<Base
+  actionIcons={true}
+>
+  <div
+    className={
+      Array [
+        "mdc-card",
+        Object {
+          "mdc-card--outlined": undefined,
+          "mdc-card__action": undefined,
+          "mdc-card__action--button": undefined,
+          "mdc-card__action--icon": undefined,
+          "mdc-card__action-buttons": undefined,
+          "mdc-card__action-icons": true,
+          "mdc-card__actions": undefined,
+          "mdc-card__actions--full-bleed": undefined,
+          "mdc-card__media": undefined,
+          "mdc-card__media--16-9": undefined,
+          "mdc-card__media-content": undefined,
+          "mdc-card__primary-action": undefined,
+          "mdc-mdc-card__media--square": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
+
+exports[`Card Tests Actions 1`] = `
+<Base
+  actions={true}
+>
+  <div
+    className={
+      Array [
+        "mdc-card",
+        Object {
+          "mdc-card--outlined": undefined,
+          "mdc-card__action": undefined,
+          "mdc-card__action--button": undefined,
+          "mdc-card__action--icon": undefined,
+          "mdc-card__action-buttons": undefined,
+          "mdc-card__action-icons": undefined,
+          "mdc-card__actions": true,
+          "mdc-card__actions--full-bleed": undefined,
+          "mdc-card__media": undefined,
+          "mdc-card__media--16-9": undefined,
+          "mdc-card__media-content": undefined,
+          "mdc-card__primary-action": undefined,
+          "mdc-mdc-card__media--square": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
+
+exports[`Card Tests Actions Full Bleed 1`] = `
+<Base
+  actionsFullBleed={true}
+>
+  <div
+    className={
+      Array [
+        "mdc-card",
+        Object {
+          "mdc-card--outlined": undefined,
+          "mdc-card__action": undefined,
+          "mdc-card__action--button": undefined,
+          "mdc-card__action--icon": undefined,
+          "mdc-card__action-buttons": undefined,
+          "mdc-card__action-icons": undefined,
+          "mdc-card__actions": undefined,
+          "mdc-card__actions--full-bleed": true,
+          "mdc-card__media": undefined,
+          "mdc-card__media--16-9": undefined,
+          "mdc-card__media-content": undefined,
+          "mdc-card__primary-action": undefined,
+          "mdc-mdc-card__media--square": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
+
+exports[`Card Tests Default 1`] = `
+<Base>
+  <div
+    className={
+      Array [
+        "mdc-card",
+        Object {
+          "mdc-card--outlined": undefined,
+          "mdc-card__action": undefined,
+          "mdc-card__action--button": undefined,
+          "mdc-card__action--icon": undefined,
+          "mdc-card__action-buttons": undefined,
+          "mdc-card__action-icons": undefined,
+          "mdc-card__actions": undefined,
+          "mdc-card__actions--full-bleed": undefined,
+          "mdc-card__media": undefined,
+          "mdc-card__media--16-9": undefined,
+          "mdc-card__media-content": undefined,
+          "mdc-card__primary-action": undefined,
+          "mdc-mdc-card__media--square": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
+
+exports[`Card Tests Media 1`] = `
+<Base
+  media={true}
+>
+  <div
+    className={
+      Array [
+        "mdc-card",
+        Object {
+          "mdc-card--outlined": undefined,
+          "mdc-card__action": undefined,
+          "mdc-card__action--button": undefined,
+          "mdc-card__action--icon": undefined,
+          "mdc-card__action-buttons": undefined,
+          "mdc-card__action-icons": undefined,
+          "mdc-card__actions": undefined,
+          "mdc-card__actions--full-bleed": undefined,
+          "mdc-card__media": true,
+          "mdc-card__media--16-9": undefined,
+          "mdc-card__media-content": undefined,
+          "mdc-card__primary-action": undefined,
+          "mdc-mdc-card__media--square": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
+
+exports[`Card Tests Media 169 1`] = `
+<Base
+  media169={true}
+>
+  <div
+    className={
+      Array [
+        "mdc-card",
+        Object {
+          "mdc-card--outlined": undefined,
+          "mdc-card__action": undefined,
+          "mdc-card__action--button": undefined,
+          "mdc-card__action--icon": undefined,
+          "mdc-card__action-buttons": undefined,
+          "mdc-card__action-icons": undefined,
+          "mdc-card__actions": undefined,
+          "mdc-card__actions--full-bleed": undefined,
+          "mdc-card__media": undefined,
+          "mdc-card__media--16-9": true,
+          "mdc-card__media-content": undefined,
+          "mdc-card__primary-action": undefined,
+          "mdc-mdc-card__media--square": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
+
+exports[`Card Tests Media Content 1`] = `
+<Base
+  mediaContent={true}
+>
+  <div
+    className={
+      Array [
+        "mdc-card",
+        Object {
+          "mdc-card--outlined": undefined,
+          "mdc-card__action": undefined,
+          "mdc-card__action--button": undefined,
+          "mdc-card__action--icon": undefined,
+          "mdc-card__action-buttons": undefined,
+          "mdc-card__action-icons": undefined,
+          "mdc-card__actions": undefined,
+          "mdc-card__actions--full-bleed": undefined,
+          "mdc-card__media": undefined,
+          "mdc-card__media--16-9": undefined,
+          "mdc-card__media-content": true,
+          "mdc-card__primary-action": undefined,
+          "mdc-mdc-card__media--square": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
+
+exports[`Card Tests Media Square 1`] = `
+<Base
+  mediaSquare={true}
+>
+  <div
+    className={
+      Array [
+        "mdc-card",
+        Object {
+          "mdc-card--outlined": undefined,
+          "mdc-card__action": undefined,
+          "mdc-card__action--button": undefined,
+          "mdc-card__action--icon": undefined,
+          "mdc-card__action-buttons": undefined,
+          "mdc-card__action-icons": undefined,
+          "mdc-card__actions": undefined,
+          "mdc-card__actions--full-bleed": undefined,
+          "mdc-card__media": undefined,
+          "mdc-card__media--16-9": undefined,
+          "mdc-card__media-content": undefined,
+          "mdc-card__primary-action": undefined,
+          "mdc-mdc-card__media--square": true,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
+
+exports[`Card Tests Outlined 1`] = `
+<Base
+  outlined={true}
+>
+  <div
+    className={
+      Array [
+        "mdc-card",
+        Object {
+          "mdc-card--outlined": true,
+          "mdc-card__action": undefined,
+          "mdc-card__action--button": undefined,
+          "mdc-card__action--icon": undefined,
+          "mdc-card__action-buttons": undefined,
+          "mdc-card__action-icons": undefined,
+          "mdc-card__actions": undefined,
+          "mdc-card__actions--full-bleed": undefined,
+          "mdc-card__media": undefined,
+          "mdc-card__media--16-9": undefined,
+          "mdc-card__media-content": undefined,
+          "mdc-card__primary-action": undefined,
+          "mdc-mdc-card__media--square": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
+
+exports[`Card Tests Primary Action 1`] = `
+<Base
+  primaryAction={true}
+>
+  <div
+    className={
+      Array [
+        "mdc-card",
+        Object {
+          "mdc-card--outlined": undefined,
+          "mdc-card__action": undefined,
+          "mdc-card__action--button": undefined,
+          "mdc-card__action--icon": undefined,
+          "mdc-card__action-buttons": undefined,
+          "mdc-card__action-icons": undefined,
+          "mdc-card__actions": undefined,
+          "mdc-card__actions--full-bleed": undefined,
+          "mdc-card__media": undefined,
+          "mdc-card__media--16-9": undefined,
+          "mdc-card__media-content": undefined,
+          "mdc-card__primary-action": true,
+          "mdc-mdc-card__media--square": undefined,
+        },
+      ]
+    }
+  >
+    test
+  </div>
+</Base>
+`;
