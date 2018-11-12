@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppBar Tests Dense Position 1`] = `
+<div>
+  <AppBar
+    dense={true}
+  >
+    Chrome UI
+  </AppBar>
+  <Container>
+    Bobby
+  </Container>
+</div>
+`;
+
+exports[`AppBar Tests Fixed Position 1`] = `
+<div>
+  <AppBar
+    fixed={true}
+  >
+    Chrome UI
+  </AppBar>
+  <Container>
+    Bobby
+  </Container>
+</div>
+`;
+
+exports[`AppBar Tests Prominent Position 1`] = `
+<div>
+  <AppBar
+    prominent={true}
+  >
+    Chrome UI
+  </AppBar>
+  <Container>
+    Bobby
+  </Container>
+</div>
+`;
+
+exports[`AppBar Tests Short Collapsed Position 1`] = `
+<div>
+  <AppBar
+    shortCollapsed={true}
+  >
+    Chrome UI
+  </AppBar>
+  <Container>
+    Bobby
+  </Container>
+</div>
+`;
+
+exports[`AppBar Tests Short Position 1`] = `
+<div>
+  <AppBar
+    short={true}
+  >
+    Chrome UI
+  </AppBar>
+  <Container>
+    Bobby
+  </Container>
+</div>
+`;

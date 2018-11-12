@@ -43,19 +43,19 @@
     "enzyme-to-json": "^3.3.4",
     "eslint-plugin-react": "^7.11.1",
     "husky": "^0.14.3",
-    "jest-cli": "^23.5.0",
     "lint-staged": "^7.1.3",
     "node-sass-chokidar": "^1.2.2",
     "npm-run-all": "^4.1.3",
     "prettier": "^1.13.5",
     "react-scripts": "1.1.4",
-    "react-test-renderer": "^16.4.2",
+    "react-test-renderer": "^16.6.1",
     "redux-mock-store": "^1.5.3"
   },
   "scripts": {
     "start": "npm-run-all -p watch-css start-dev",
     "build": "npm-run-all build-css build-dev",
     "dist": "babel src --out-dir dist --source-maps inline --copy-files",
+    "test": "react-scripts test --env=jsdom --verbose=true --collectCoverage",
     "start-dev": "react-scripts start",
     "build-dev": "react-scripts build",
     "watch-css": "yarn build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules --watch --recursive",
@@ -63,6 +63,27 @@
     "test:coverage": "react-scripts test --env=jsdom --coverage",
     "precommit": "lint-staged",
     "pretty": "prettier --write 'src/**/*.{js,scss,json}' 'test/**/*.{js,scss,json}' '*.{js,scss,json}'"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/components/**/*.js"
+    ],
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text-summary"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    },
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "lint-staged": {
     "*.{js,scss,json}": [

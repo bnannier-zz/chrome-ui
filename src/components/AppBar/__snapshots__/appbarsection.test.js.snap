@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppBarSection Tests Check Sections 1`] = `
+<div>
+  <AppBar
+    fixed={true}
+  >
+    <AppBarSection
+      left={true}
+    >
+      Left Side
+    </AppBarSection>
+    <AppBarSection
+      right={true}
+    >
+      Right Side
+    </AppBarSection>
+  </AppBar>
+</div>
+`;
