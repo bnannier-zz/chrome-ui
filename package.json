@@ -67,7 +67,8 @@
   },
   "jest": {
     "collectCoverageFrom": [
-      "src/components/**/*.js"
+      "src/components/**/*.js",
+      "!src/components/Chrome/*.js"
     ],
     "coverageReporters": [
       "json",

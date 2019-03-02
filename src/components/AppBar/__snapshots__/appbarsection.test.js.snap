@@ -1,18 +1,46 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`AppBarSection Tests Check Sections Left and Right 1`] = `
-<div>
-  <AppBar>
-    <AppBarSection
-      left={true}
+<AppBar>
+  <Base>
+    <header
+      className="mdc-top-app-bar"
     >
-      Left Side
-    </AppBarSection>
-    <AppBarSection
-      right={true}
-    >
-      Right Side
-    </AppBarSection>
-  </AppBar>
-</div>
+      <AppBarRow>
+        <Base>
+          <div
+            className="mdc-top-app-bar__row"
+          >
+            <AppBarSection
+              left={true}
+            >
+              <Base
+                left={true}
+              >
+                <section
+                  className="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+                >
+                  Left Side
+                </section>
+              </Base>
+            </AppBarSection>
+            <AppBarSection
+              right={true}
+            >
+              <Base
+                right={true}
+              >
+                <section
+                  className="mdc-top-app-bar__section mdc-top-app-bar__section--align-end"
+                >
+                  Right Side
+                </section>
+              </Base>
+            </AppBarSection>
+          </div>
+        </Base>
+      </AppBarRow>
+    </header>
+  </Base>
+</AppBar>
 `;

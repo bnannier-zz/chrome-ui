@@ -7,11 +7,7 @@ import AppBarRow from "./AppBarRow";
 
 describe("AppBarRow Tests", () => {
   it("Default", function() {
-    const wrapper = shallow(
-      <div>
-        <AppBarRow>Chrome UI</AppBarRow>
-      </div>
-    );
+    const wrapper = shallow(<AppBarRow>test</AppBarRow>);
     expect(wrapper).toMatchSnapshot();
   });
 });

@@ -1,22 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Grid Tests Default 1`] = `
-<Base>
-  <div
-    className={
-      Array [
-        "mdc-layout-grid",
-        Object {
-          "mdc-layout-grid--align-left": undefined,
-          "mdc-layout-grid--align-right": undefined,
-          "mdc-layout-grid--fixed-column-width grid-max-width": undefined,
-        },
-      ]
-    }
-  >
-    <GridInner>
-      test
-    </GridInner>
-  </div>
-</Base>
+<Grid>
+  <Base>
+    <div
+      className="mdc-layout-grid"
+    >
+      <GridInner>
+        <Base>
+          <div
+            className="mdc-layout-grid__inner"
+          >
+            test
+          </div>
+        </Base>
+      </GridInner>
+    </div>
+  </Base>
+</Grid>
 `;
